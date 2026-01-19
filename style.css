@@ -317,6 +317,9 @@ body{
     flex-direction: column;
     font-size: 12px;
 }
+.box6 p, .box7 p{
+    font-size: 14px;
+}
 .box9{
     width:100%;
     height:200px;
@@ -391,6 +394,39 @@ body{
     border:1px solid white;
     font-size: 14px;
 }
+/* ---------- BUTTON HOVER ---------- */
+#btn, #btn1, #read-btn {
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#btn:hover,
+#btn1:hover,
+#read-btn:hover {
+    background-color: rgb(3, 80, 170);  /* Darker blue on hover */
+    transform: translateY(-2px);        /* Slight lift effect */
+}
+
+/* ---------- CARDS HOVER ---------- */
+.box,
+.box4,
+.box10,
+.box11,
+.box12,
+.box13 {
+    transition: 0.3s ease; /* Smooth transition */
+}
+
+.box:hover,
+.box4:hover,
+.box10:hover,
+.box11:hover,
+.box12:hover,
+.box13:hover {
+    transform: translateY(-6px);                   /* Lift effect */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);  /* Subtle shadow */
+}
+
 .box12 h1{
     font-size: 30px;
 }
@@ -566,6 +602,7 @@ body{
     text-align: center;
     margin-top: 10px;
 }
+
 .f1, .f2, .f3{
     font-size: 10px;
 }
@@ -651,7 +688,7 @@ font-size: 10px;
         font-size: 12px;
     }
     .box4 h3{
-        font-size: 14px;
+        font-size: 12px;
     }
     .box4 p{
         font-size: 10px;
@@ -680,5 +717,7 @@ font-size: 10px;
         width:320px;
         height:250px;
     }
-    
+    .f{
+        font-size: 10px;
+    }
 }
